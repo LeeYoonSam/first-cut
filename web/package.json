@@ -1,0 +1,31 @@
+{
+  "name": "first-cut-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run sync && next dev",
+    "build": "npm run sync && next build",
+    "sync": "tsx scripts/sync-data.ts",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@xyflow/react": "latest",
+    "framer-motion": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "tsx": "^4",
+    "remark": "^15",
+    "remark-gfm": "^4",
+    "unified": "^11",
+    "unist-util-visit": "^5",
+    "mdast-util-to-string": "^4",
+    "@tailwindcss/postcss": "^4"
+  }
+}

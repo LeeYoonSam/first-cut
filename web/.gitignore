@@ -1,0 +1,26 @@
+# 의존성
+node_modules/
+
+# Next.js 빌드 출력
+.next/
+out/
+
+# 동기화 생성 파일 (빌드 시 자동 생성)
+src/data/
+
+# 환경변수
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# 디버그 로그
+npm-debug.log*
+
+# OMC 상태
+.omc/
