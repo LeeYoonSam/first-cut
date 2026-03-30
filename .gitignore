@@ -1,0 +1,26 @@
+# oh-my-claudecode 내부 상태
+.omc/
+
+# Claude 세션 데이터
+.claude/projects/
+
+# 임시 파일
+*.tmp
+*.bak
+
+# 보안 민감 파일
+.env
+*.secret
+*.key
+
+# macOS 시스템 파일
+.DS_Store
+
+# Node.js (향후 확장 대비)
+node_modules/
+
+# 진행 중 기획 초안 (개인 작업 상태)
+plans/drafts/
+
+# 추적 대상 명시 (주석)
+# 추적됨: docs/, plans/*.md, .claude/skills/, .claude/rules/, CLAUDE.md, README.md
