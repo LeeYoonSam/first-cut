@@ -16,8 +16,13 @@
 # macOS 시스템 파일
 .DS_Store
 
-# Node.js (향후 확장 대비)
+# Node.js
 node_modules/
+
+# Next.js 웹앱 빌드 출력 (web/ 하위)
+web/.next/
+web/out/
+web/src/data/
 
 # 진행 중 기획 초안 (개인 작업 상태)
 plans/drafts/
